@@ -120,14 +120,14 @@ so this will automatically change this as well
 .coverText {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #70707c;
     font-weight: bold;
 }
 
 .coverText > h1 {
-    color: white;
+    color: #70707c;
     font-size: 100px;
 }
 
