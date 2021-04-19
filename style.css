@@ -31,12 +31,18 @@ height: 100vh;
 }
 
 .coverText {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
     color: #70707c;
     font-weight: bold;
+    position: relative;
+  animation: coverText 5s;
+  animation-timing-function: ease;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards
+}
+
+@keyframes coverText {
+  from {top: 0px;}
+  to {top: 300px;}
 }
 
 .coverText > h1 {
