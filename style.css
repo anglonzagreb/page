@@ -34,16 +34,23 @@ height: 100vh;
     color: #70707c;
     font-weight: bold;
     position: relative;
-  animation: coverText 5s;
-  animation-timing-function: ease;
-  animation-duration: 3s;  
-  animation-fill-mode: forwards
+  animation: coverText 1s both;
 }
 
 @keyframes coverText {
-  from {top: 0px;}
-  to {top: 300px;}
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
 }
+
 
 .coverText > h1 {
     color: #70707c;
