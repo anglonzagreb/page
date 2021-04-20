@@ -24,9 +24,6 @@ height: 100vh;
     text-align: center;
 }
 
-.main-content {
-    grid-column: span 12;
-  }
 
 .footer {
     text-align: center;
@@ -40,23 +37,3 @@ footer p {
     color: white;
 }
 
-
-/* Za responsivness - nije testirano. 
-Preuzeto s https://blog.theodo.com/2018/03/stop-using-bootstrap-layout-thanks-to-css-grid/ */ 
-
-@media screen and (max-width: 768px) {
-    .cover {
-      grid-column: span 6;
-    }
-    .main-content {
-      grid-column: span 6;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .cover {
-      grid-column: span 12;
-    }
-    .main-content {
-      grid-column: span 12;
-    }
-  }
