@@ -4,12 +4,13 @@ body {
 }
    
 .cover {
-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    text-align: center;
 }
 
 .cover {
@@ -21,7 +22,10 @@ height: 100vh;
     font-size: 5em;
     color: #70707c;
     font-weight: bold;
-    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
